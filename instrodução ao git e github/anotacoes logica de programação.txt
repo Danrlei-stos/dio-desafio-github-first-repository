@@ -1,0 +1,280 @@
+	->  LÓGICAS DE PROGRAMAÇÃO ESSENCIAL  <-
+
+> Lógica:
+	- Parte da filosofia que trata das formas de pensamento em geral e das operações que visam a determinação do que é verdadeiro ou falso;
+	-Coerencia de raciocinio, ideias;
+	-Sequência coerente, regular ou necessaria de acontecimentos e/ou coisas.
+
+> Lógica de programação:
+	-Significa apenas contextualizar a lógica na programação de computadores, buscando a melhor sequência de ações para solucionar um problema
+
+> Metacognição:
+	- Pensar como você pensa.
+
+> Abstração:
+	- Habilidade de concentrar nos aspectos essenciais de um contexto, ignorando caracteristicas menos importantes ou acidentais.
+
+> Algoritmo:
+	- É uma sequência de passos que resolve um problema;
+	- Sequência lógicas.
+
+> Pseudocódigo:
+	- É uma forma genérica de escrever um algoritimo, utilizando uma linguagem simples, de forma a ser entendida por qualquer pessoa.
+
+> Fluxograma:
+	- É uma ferramenta utilizada para representar graficamente o algoritmo, isto é, a sequência logica e coerente do fluxo de dados.
+	- É um tipo de diagrama e pode ser entendido como uma representação esquematica de um processo.
+	- Na prática, é a documentação dos passos necessários para execução de um processo qualquer.
+
+> Variáveis:
+	- Na programação, é um objeto (uma posição, frequentemente localizada na memoria) capaz de reter e representar um valor ou expressão.
+	- É um espaço na memoria do computador destinado a um dado que é alterado durante a execução do algoritimo.
+
+> Tipos de variáveis;
+	- Numéricas
+	- Caracteres
+	- Alfanuméricas
+	- Lógicas
+
+> Constante:
+	- São vaçores imutaveis e não são alterados durante a vida útil do programa.
+
+> Expressões Aritiméticas:
+	- São expressões que utilizam operadores aritméticos e funções envolvendo constantes e variáveis.
+
+> Operadores aritméticos;
+	SOMA: +
+	SUBTRAÇÃO: -
+	MULTIPLICAÇÃO: *
+	DIVISÃO: /
+	POTENCIAÇÃO: ^
+	PORCENTAGEM: %
+
+> Expressões literais:
+	- São expressões com constantes e/ou variáveis que tem como resultado valores literais;
+	- São utilizadas na atribuição de valor para uma variável ou constante.
+
+> Operadores relacionais:
+	- São expressões compostas por outras expressões ou variáveis numéricas com operadores relacionais;
+	- retornam valores lógicos (verdadeiro ou valso)
+
+> Tomadas de decisão:
+	- Quando ocorre a ncessidade de decidir o que fazer dependendo de alguma condição encontrada durante a execução.
+
+> Strings:
+	-Sequência de caracteres.
+
+> Concatenação: (simbolo: &)
+	- Termo usado para designar a operação de unir o conteúdo de 2 "strings";
+	- Agrupamento de 2 ou + células que, incluindo formulas, textos ou outras informações no seu interior, dá origem a um unico resutado;
+	-> Útil para criar exibições para o usuario e juntar tudo numa string só e mostrar para o usuario <
+
+> Estrutura de Repetição:
+	- É uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou com um contador.
+
+> Linguagem de programação:
+	- É uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas (software);
+	- Um software pode ser desenvolvido para rodar em um computador, dispositivo móvel ou em qualquer equipamento que permita sua execução;
+	- O que é obio para voce, certamente não é obvio para uma maquina. E se voce quer que a maquina faça algo para voce, voce precisa "falar com ela";
+	- A função das linguagens de programação é servir de um meio de comunicação entre computadores e humanos.
+	> Tipos:
+		- Alto Nível: são aquelas cuja sintaxe se aproxima mais da nossa linguagem e se distanciam mais da linguagem de máquina. ex: Java
+		- Baixo Nível: é a que se aproxima mais da linguagem de maquina. Essas são as que precisa ter o conhecimento direto da arquitetura do computador para fazer alguma coisa. ex: Assembly.
+		- Compiladas: é uma linguagem em que o código fonte é executado diretamente pelo sistema operacional ou pelo processador, após ser traduzido por meio de um processo chamado compilação. - C#, C++.
+		- Interpretadas: é aquela que o código fonte é executado poor um programa de computador chamado interpretador, que em seguida é executado pelo sistema operacional ou processador. - Javascript, PHP, Phyton
+
+> Portugol:
+	- É uma pseudolinguagem que permite ao leitor desenvolver algoritmos estruturados em português de forma simples e intuitiva, independentemente da linguagem de programação.
+	- É uma pseudolinguagem que permite ao programador pensar no problema em si e nçao no equipamento que irá executar o algoritmo.
+	- IDE: ambiente grafico do portugol
+
+> Desvios Condicionais:
+	> Comando: se
+		- É utilizada a paçavra reservada SE, a condição a ser testada entre parenteses e as instruções que devem ser executadas entre chaves caso o desvio seja VERDADEIRO;
+	> Comando: se-senao
+		- Se a condição for FALSA um outro conjunto de comandos deve ser executado.
+	> Comando: caso / caso contrario
+		- É similar aos comandos SE e SENAO, e reduz a complexidade na escolha de diversas opções.
+		- Apesar de suas similaridades com o SE, ele posssui algumas diferenças: neste comando nçao é possivel o uso de operadores logicos, ele apenas trabalha com valores definodos.
+
+> Laços de repeticão:
+	- É uma estrutura quebpermite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou com um contador.
+
+> Matriz:
+	- É uma coleção de variaveis de mesmo tipo, acessiveis com um unico nome e armazenados contiguamente na memoria (em sequencia)
+	- Não pode ter numa matriz caracteres do tipo INTEIRO e do tipo CADEIA ao mesmo tempo.
+	- TABELA (linhas e colunas)
+> Vetores:
+	- São matrizes de uma só dimenção.
+	- A individualização de cada variavel de um vetor é feita atrav´res do uso de INDICES
+	- LINHAS
+
+----------------------------------------------------------------------------------
+
+	---> PRIMEIROS PASSOS PARA COEÇAR A PROGRAMAR <---
+
+> LÓGICA
+	- É a organização e pelanejamento das instruções, assertivas em um algoritmo, a fim de viabilizar a implantação de um programa;
+	- É resolver um problema a partir de uma sequencia de instruções;
+	- PROBLEMA: é uma questão que foge a uma deter minada regra, ou melhor, é um desvio de percurso, o qual impede de atingir um objetivo com eficiencia.
+	> Técnica Linear:
+		- Modelo tradicional;
+		- Não tem vinculo;
+		- Execução sequencial, recursos limitados, unica dimenção.
+	> Técnica Estruturada:
+		- Organização, disposição e ordem dos elementos essenciais que compõem um corpo (concreto ou abstrato);
+		- Objetivo: facilitar a escrita, entendimento, validação e manutenção
+	> Técnica Modular:
+		- Decompor um problema, partes independentes;
+		- Controlada por um conjunto de regras;
+		- Divide do problema em 3 partes: Dados de entrada, Processo de transformação, Dados de saída;
+		- METAS: Simplificar, Decompor o problema, Verificação do modulo.
+
+> ALGORITMO:
+	- É o processo de resolução de problemas "step by step" (passo a passo) utilizando instruções detalhadas
+	> Desenvolvimento de programas:
+		- Analise
+			- Estudo e definição de entrada e saida
+		- Algoritimo
+			- Descreve o problema por meio de ferramentas, narrativas, fluxograma ou pseudocodigos (linguagem de programação)
+		- Codificação
+			- O algoritimo é codificado com a linguagem de programação escolhida
+	- É uma sequencia de passos com objetivo definido;
+	- Execução de tarefas especificas;
+	- Conjunto de operações que resultam em uma sucessão finita de ações;
+	-> Como construir um algoritmo:
+		- Compreenção do problema, pontos mais importantes;
+		- Definição dados de entrada, dados fornecidos e cenário;
+		- Definir processamento, cálculos e restrições;
+		- Definir dados de saida, após processamento;
+		- Utilizar um metodo de construção e refinamento do algoritimo:
+			- Narrativa - Utilização da linguagem natural, diversas interpretações possíveis;
+			- Fluxograma - Utilização de simbolos pré-definidos;
+			- Pseudocodigo - Portugol - Passos/Regras a serem seguidos
+		- Teste e diagnóstico.
+
+---> FUNDAMENTOS DE ALGORITMOS:
+	- Variáveis:
+		- Incerto, mutável, instável, inconstante, possui variações;
+		- Pode assumir qualquer um dos valores de um determinado conjunto de valores;
+		- Precisa ser previamente identificado;
+		- Numericos:
+			- Inteiros: numeros inteiros - positivos ou negativos;
+			- Reais: decimais, " numeros quebrados".
+		- Caractere:
+			- Texto, numeros, simbolos;
+			- Alfanumerico, Senhas.
+		- Lógico ou Booleano:
+			- VERDADEIRO - 1
+			- FALSO - 0.
+		> REGRAS:
+			- Atribuição de um ou mais caracteres;
+			- Primeira letra - não numero;
+			- Sem espaços em branco;
+			- Vedado - Utilização de palavras reservada;
+			- Caracteres e numeros;
+			- Definir nome da variavel - identificação
+		- Papel da variável:
+			- Ação: executação de modificação de estado
+			- Controle: vigiada, controle, auxiliar em estrutura de repetição
+	- Constante:
+		- O que nao muda, inalteravel, invariavel, estável.
+
+- Calculos Mateáticos:
+	- Operadores: Binario e Unario.
+	SOMA: +
+	SUBTRAÇÃO: -
+	MULTIPLICAÇÃO: *
+	DIVISÃO: /
+	POTENCIAÇÃO: ^
+	PORCENTAGEM: %
+
+- INSTRUÇÕES:
+	- São linguagem de palavras-chave (vocabulario) de uma determinada de programação que tem por finalidade comandar um computador que irá tratar os dados;
+
+-ESTRUTURA CONDICIONAL:
+	- CONDIÇÃO: estado de uma pessoa ou coisa;
+	- CONDICIONAL: expressão de uma condição ou suposição, contém ou implica uma suposição ou hipotese;
+		- Tipo: Simples, Composta  e Encadeada;
+
+			- SIMPLES: Se (<condição>) então
+				     <instruções para condição verdadeira>
+				   fim_se
+
+			- COMPOSTA: Se (<condição>) então
+				      <instruções para condição verdadeira>
+				    senão
+				     <instrução para condição falsa>
+				    fim_se
+
+			- ENCADEADO: Se (<condição1>) então
+				       <instruções para condição verdadeira>
+				     Senão
+				       Se (<condição2>) então	
+				         <instruções para: condição 2 verdadeira e condição 1 falsa>
+				       Senão
+				         <instruções para condição 1 e 2 falsas>
+				     fim_se 
+
+	- Operadores Logicos:
+		- Quando utilizar:
+			- Verificação de V ou F;
+			- Substituição:
+				- Encadeamento de condições
+		- AND (e), OR (ou) e NOT (não);
+
+- ESTRUTURA DE REPETIÇÃO:
+	- Vantagens:
+		- Redução de linhas
+		- Compreenção facilitada
+		- Redução de erro
+	- Controle de fluxo
+	- Laços
+	- Malhas de repetição
+	- Loop
+	- Repetição
+	- Condições de parada
+		- Numero de repetições pré-definidas
+		- Condição satisfeita
+	-TIPOS:
+		- enquanto... faça
+		- repita... até
+		- para... de... até... faça
+
+- VETORES E MATRIZES:
+	- Vetores:
+		- É caracterizado por uma variavel dimensionada com tamanho pré-fixado;
+		- Matriz unidimensional.
+	- Matriz:
+		- É uma tabela organizada em linhas e colunas no formato MxN, onde M representa o numero de linhas e N o numero de colunas;
+		- Coleção de variaveis 
+
+- FUNÇÕES / SUBPROGRAMA / BLOCO / SUB-ROTINA / SUBALGORITMO / MÉTODO
+	- Similar ao conceito de função matematica;
+	- São blocos de instruções que realizam tarefas especificas;
+	- Programa dentro de um programa, dentro de um setor do programa;
+	- Vantagens:
+		- Modularização do programa;
+		- Codigo mais claro e consiso;
+		- Reutilização de instruções, facilidade para alterações;
+		- Redução de linhas;
+		- REDUÇÃO DO CÓDIGO - ELIMINAÇÃO DE REDUNDANCIA;
+	- São blocos de instruções (codigos), identificados por nomes e parametros
+		- Definicçao;
+		- Nome;
+		- Invocação;
+		- Variavel Local - são destruidas ao encerrar a função
+
+- INSTRUÇÕES DE ENTRADA E SAÍDA
+	- ENTRADA:
+		- Consiste na inserção e recebimento de dados do mundo real por meio de ação de alguma interface, seja teclado, mouse, arquivos, entre outros;
+	- SAÍDA:
+		- Consiste na impressao dos dados do mundo digital por meio de ação de alguma interface;
+		- Os formatos podem variar, desde simpre arquivos binarios até complexas querys de banco de dados;
+		- Arquivos de acesso ao usuario, log do sitema
+		- Tipos:
+			- Saida programada
+				- Condicional: Aguarda o dispositivo esteja preparado para receber
+				- Incondicional: Envia independentente do status do dispositivo
+			- Saida por interrupção
+				- Definida pelos perifericos
